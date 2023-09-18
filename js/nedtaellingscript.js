@@ -1,13 +1,11 @@
-<script type="text/javascript">
-<!-- Start
+
 var now = new Date();
-var event = new Date("Sep 20 2021 15:30:00");
+var event = new Date("Sep 20 2023 15:30:00");
 var seconds = (now - event) / 1000;
 var minutes = seconds / 60;
 var hours = minutes / 60;
 var days = hours / 24;
-
-ID=window.setTimeout("update();", 1000);
+var ID=window.setTimeout("update();", 1000);
 
 function update()
 {
@@ -27,4 +25,3 @@ document.getElementById('seconds').value = seconds;
 ID=window.setTimeout("update();",1000);
 }
 
-</script>
